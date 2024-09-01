@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link href="./dist/styles.css" rel="stylesheet"> -->
+
+
+  <!--==================== UNICONS ====================-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">     
+        
+  <!--==================== SWIPER CSS ====================-->
+  <link rel="stylesheet" href="Assets/CSS/swiper-bundle.min.css">
+  
+  <!--==================== CSS ====================-->
+  <link rel="stylesheet" href="./Assets/CSS/styles.css">
+
+  <title>Document</title>
+</head>
+<body>
+  
+  <!--==================== HEADER ====================-->
+  <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Kevin</a>
+        <div class="nav__menu" id="nav-menu">
+          
+          <ul class="nav__list grid">
+            
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="uil uil-estate nav__icon"></i> Home
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="uil uil-user nav__icon"></i> About
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#skills" class="nav__link">
+                <i class="uil uil-file-info-alt nav__icon"></i> Skills
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#intersts" class="nav__link">
+                <i class="uil uil-briefcase-alt nav__icon"></i> Interest
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="uil uil-scenery nav__icon"></i> Portfolio
+              </a>
+            </li>
+
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="uil uil-envelope-check nav__icon"></i> Contact
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav__close" id="nav-close"></i>
+        </div>
+
+        <div class="nav__btns">
+          <!-- Theme change Button -->
+          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+  </header>
+
+  <!--==================== MAIN ====================-->
+  <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+          <div class="home__container container grid">
+            <div class="home__content grid">
+              <div class="home__social">
+
+                <a href="https://www.linkedin.com/in/kevinphung01/" target="_blank" class="home__social-icon">
+                  <i class="uil uil-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/Elites100" target="_blank" class="home__social-icon">
+                  <i class="uil uil-github"></i>
+                </a>
+
+              </div>
+              <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <mask id="mask0" mask-type="alpha">
+                      <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                  </mask>
+                  <g mask="url(#mask0)">
+                      <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                      -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"/>
+                      <image class="home__blob-img" x="-25" y="20" xlink:href="Assets\IMG\ProfilePic2.png"/>
+                  </g>
+                </svg>
+              </div>
+              <div class="home__data">
+                <h1 class="home__title">Hello, My name is Kevin</h1>
+                <h3 class="home__subtitle">Computer Science | Web Development | Software engineering</h3>
+                <p class="home__description">I am deeply passionate about expanding my expertise across a broad spectrum of programming languages, with a particular focus on web development, software engineering, and machine learning. Through a combination of academic studies and personal projects, I have honed my skills and acquired substantial knowledge, consistently delivering high-quality work.
+                </p>
+                <a href="#contact" class="button button--flex">
+                  Contact Me <i class="uil uil-message button__icon"></i>
+                </a>
+              </div>
+            </div>
+            <div class="home__scroll">
+              <a href="#about" class="home__scroll-button button--flex">
+                <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                <span class="home__scroll-name">Scroll Down</span>
+                <i class="uil uil-arrow-down home__scroll-arrow"></i>
+              </a>
+            </div>
+          </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+          <h2 class="section__title">About Me</h2>
+          <span class="section__subtitle">My introduction</span>
+          <div class="about__container container grid">
+            <img src="Assets\IMG\technology-illustration.jpg" alt="" class="about__img">
+            <div class="about__data">
+              <p class="about__description"> My academic journey has immersed me in a variety of projects, where I developed a solid foundation in programming languages and software tools. Through these experiences, I applied and honed my skills in web development and software engineering, consistently delivering high-quality work.</p>
+              <div class="about__info">
+                <div>
+                  <span class="about__info-title">05+</span>
+                  <span class="about__info-name">Years <br> experiences</span>
+                </div>
+
+                <div>
+                  <span class="about__info-title">20+</span>
+                  <span class="about__info-name">Completed <br> Academic / Personal projects</span>
+                </div>
+
+              </div>
+
+              <div class="about__button">
+                <a download="" href="Assets/DATA/Kevin-Phung-Resume.pdf" class="button button--flex">
+                  Download Resume <i class="uil uil-download-alt button__icon"></i>
+                </a>
+              </div>
+
+            </div>
+          </div>
+      </section>
+
+      <!--==================== SKILLS ====================-->
+      <section class="skills section" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <span class="section__subtitle">My technical level</span>
+
+        <div class="skills__container container grid">
+          <div>
+            <!--==================== SKILLS 1 ====================-->
+            <div class="skills__content skills__open">
+              <div class="skills__header">
+                <i class="uil uil-brackets-curly skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Front-End Development</h1>
+                  <span class="skills__subtitle">Expertise in user-facing technologies</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">HTML/CSS</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">JavaScript</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">React.js/Reacts Native</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== SKILLS 2 ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-database-alt skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Back-End Development</h1>
+                  <span class="skills__subtitle">Proficiency in server-side technologies</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Python/Django</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">SQL Database</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Flask</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <!--==================== SKILLS 3 ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-programming-language skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Programming languages</h1>
+                  <span class="skills__subtitle">Experiences in additional langauges</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Java</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">C</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Assembly Language</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">G Code</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== SKILLS 4 ====================-->
+            <div class="skills__content skills__close">
+              <div class="skills__header">
+                <i class="uil uil-code-branch skills__icon"></i>
+
+                <div>
+                  <h1 class="skills__title">Software Tools</h1>
+                  <span class="skills__subtitle">Experiences in using Software tools and FrameWorks</span>
+                </div>
+
+                <i class="uil uil-angle-down skills__arrow"></i>
+              </div>
+
+              <div class="skills__list grid">
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Docker</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Visual Studio Code/IntelliJ IDEA</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">MySQL</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Pytest</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Figma</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">WordPress</h3>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Github</h3>
+                  </div>
+                </div>
+                
+                <div class="skills__data">
+                  <div class="skills__titles">
+                    <h3 class="skills__name">Pytorch</h3>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== QUALIFICATION ====================-->
+      <section class="qualification section">
+        <h2 class="section__title">Qualification</h2>
+        <span class="section__subtitle">My Personal Journey</span>
+
+        <div class="qualification__container container">
+          <div class="qualification__tabs">
+            <div class="qualification__button button--flex qualification__active" data-target='#education'>
+              <i class="uil uil-graduation-cap qualification__icon"></i>
+              Education
+            </div>
+
+            <div class="qualification__button button--flex" data-target='#experience'>
+              <i class="uil uil-briefcase qualification__icon"></i>
+              Experiences
+            </div>
+          </div>
+
+          <div class="qualification__sections">
+            <!--==================== QUALIFICATION CONTENT 1 ====================-->
+            <div class="qualification__content qualification__active" data-content id="education">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Computer Science</h3>
+                  <span class="qualification__subtitle">Virginia commonwealth univeristy</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calender"></i>
+                    2019 - 2024
+                  </div>
+                </div>
+
+                <!-- <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div> -->
+              </div>
+            </div>
+            <!--==================== QUALIFICATION CONTENT 2 ====================-->
+            <div class="qualification__content" data-content id="experience">
+              <!--==================== QUALIFICATION 1 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">Web Developer / First level IT support specialist Internship</h3>
+                  <span class="qualification__subtitle">WoMen of Connections Ministry</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calender"></i>
+                    2022 - 2022 (Summer Term internship) 
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 2 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">RamDev</h3>
+                  <span class="qualification__subtitle">Virginia commonwealth univeristy</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calender"></i>
+                    2021 - 2024 
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div>
+                  <h3 class="qualification__title">AWS Educate - Intro & Storage</h3>
+                  <span class="qualification__subtitle">Certification (AWS)</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calender"></i>
+                    2022
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+                
+              </div>
+
+              <!--==================== QUALIFICATION 4 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">JavaScript Essential Training</h3>
+                  <span class="qualification__subtitle">Certification (Linkedin Learning)</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calender"></i>
+                    2023
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 5 ====================-->
+              <div class="qualification__data">
+  
+                <div>
+                  <h3 class="qualification__title">React.js Essential Training</h3>
+                  <span class="qualification__subtitle">Certification (Linkedin Learning)</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calender"></i>
+                    2024
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+              </div>
+
+              <!--==================== QUALIFICATION 3 ====================-->
+              <div class="qualification__data">
+                <div></div>
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <span class="qualification__line"></span>
+                </div>
+
+                <div>
+                  <h3 class="qualification__title">Fundemental Machine learning and AI concepts</h3>
+                  <span class="qualification__subtitle">Certification (Microsoft)</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calender"></i>
+                    2024
+                  </div>
+                </div>
+              </div>
+
+              <!--==================== QUALIFICATION 4 ====================-->
+              <div class="qualification__data">
+        
+                <div>
+                  <h3 class="qualification__title">Django Essential Training</h3>
+                  <span class="qualification__subtitle">Certification (Linkedin Learning)</span>
+                  <div class="qualification__calendar">
+                    <i class="uil uil-calender"></i>
+                    2024
+                  </div>
+                </div>
+
+                <div>
+                  <span class="qualification__rounder"></span>
+                  <!-- <span class="qualification__line"></span> -->
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== INTRESTS ====================-->
+      <section class="services section" id="intersts">
+          <h2 class="section__title">Tech Intrests</h2>
+          <span class="section__subtitle">What I am knowledge about and want to develop further experiences with</span>
+
+          <div class="services__container container grid">
+            <!--==================== INTRESTS 1 ====================-->
+            <div class="services__content">
+              <div>
+                <i class="uil uil-web-grid services__icon"></i>
+                <h3 class="services__title"> UI/UX <br> Designer</h3>
+              </div>
+              <span class="button button--flex button--small button--link services__button">
+                View More
+                <i class="uil uil-arrow-right button__icon"></i>
+              </span>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title">UI/UX <br> Designer</h4>
+                  <i class="uil uil-times services__modal-close"></i>
+
+                  <ul class="service__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Developing User interfaces and visually appealing/professional appearances </p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Creating UX element interactions with different styles</p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Styling and Designing Media Content</p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Implementing UI/UX fundementals and principals</p>
+                      </i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+
+            </div>
+
+            <!--==================== INTRESTS 2 ====================-->
+            <div class="services__content">
+              <div>
+                <i class="uil uil-arrow services__icon"></i>
+                <h3 class="services__title"> Front-End <br> Developer </h3>
+              </div>
+              <span class="button button--flex button--small button--link services__button">
+                View More
+                <i class="uil uil-arrow-right button__icon"></i>
+              </span>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title">Front-End <br> Developer</h4>
+                  <i class="uil uil-times services__modal-close"></i>
+
+                  <ul class="service__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Create and maintain Websites and applications programs</p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Implementing and developing with multiple web languages and frameworks</p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Working with clients to develop stunning looks and design of a website</p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Experiencing using Back-End and implementing API</p>
+                      </i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!--==================== INTRESTS 3 ====================-->
+            <div class="services__content">
+              <div>
+                <i class="uil uil-window services__icon"></i>
+                <h3 class="services__title"> Software <br> Developer </h3>
+              </div>
+              <span class="button button--flex button--small button--link services__button">
+                View More
+                <i class="uil uil-arrow-right button__icon"></i>
+              </span>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title"> Software <br> Developer</h4>
+                  <i class="uil uil-times services__modal-close"></i>
+
+                  <ul class="service__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Developing User interfaces and visually appealing/professional appearances </p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Creating UX element interactions with different styles</p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Styling and Designing Media Content</p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Implementing UI/UX fundementals and principals</p>
+                      </i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+
+            </div>
+
+            <!--==================== INTRESTS 4 ====================-->
+            <div class="services__content">
+              <div>
+                <i class="uil uil-window services__icon"></i>
+                <h3 class="services__title"> Machine Learning <br> AI </h3>
+              </div>
+              <span class="button button--flex button--small button--link services__button">
+                View More
+                <i class="uil uil-arrow-right button__icon"></i>
+              </span>
+
+              <div class="services__modal">
+                <div class="services__modal-content">
+                  <h4 class="services__modal-title"> Machine Learning <br> AI </h4>
+                  <i class="uil uil-times services__modal-close"></i>
+
+                  <ul class="service__modal-services grid">
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Developing User interfaces and visually appealing/professional appearances </p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Creating UX element interactions with different styles</p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Styling and Designing Media Content</p>
+                      </i>
+                    </li>
+                    <li class="services__modal-service">
+                      <i class="uil uil-check-circle services__modal-icon">
+                        <p>Implementing UI/UX fundementals and principals</p>
+                      </i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      </section>
+
+      <!--==================== PORTFOLIO ====================-->
+      <section class="portfolio section" id="portfolio">
+          <h2 class="section__title">Portfolio</h2>
+          <span class="section__subtitle">Projects/Works</span>
+          
+          <div class="portfolio__container container swiper">
+            <div class="swiper-wrapper">
+              <!--==================== PORTFOLIO 1 ====================-->
+              <div class="portfolio__content grid swiper-slide">
+                <img src="Assets/IMG/illustration-rain-futuristic-city.jpg" alt=""class="portfolio__img">
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">Weather Wave</h3>
+                  <p class="portfolio__description"> This project involved the creation of a React-based web application that provides users with real-time weather updates and air quality information for specified cities. The application was designed to help users easily understand current weather conditions and make informed decisions based on air quality data. </p>
+                  <a href="https://github.com/Elites100/ReactWeather-Project" class="button button--flex button--small portfolio__button">
+                    Source
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PORTFOLIO 2 ====================-->
+              <div class="portfolio__content grid swiper-slide">
+                <img src="Assets/IMG/food-cartoon-scene.jpg" alt=""class="portfolio__img">
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">FlavorQuest</h3>
+                  <p class="portfolio__description"> This project involved developing a mobile recipe application using React Native and recipe APIs within the Expo development environment. The app features multiple user interfaces, allowing users to browse, search, and manage recipes easily. </p>
+                  <a href="https://cmsc-vcu.github.io/cmsc475-sp2024-hw11-Elites100/" class="button button--flex button--small portfolio__button">
+                    Source
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+              <!--==================== PORTFOLIO 3 ====================-->
+              <div class="portfolio__content grid swiper-slide">
+                <img src="Assets/IMG/hooded-hacker-sitting-front-computer-monitor-cybercrime-concept.jpg" alt=""class="portfolio__img">
+                <div class="portfolio__data">
+                  <h3 class="portfolio__title">Machine Learning for Cybersecurity in 3D Printers
+                  </h3>
+                  <p class="portfolio__description"> This project involved the development of a machine learning model aimed at detecting malicious G-code files in 3D printing. The model itself was a binary classification system built using Long Short-Term Memory (LSTM) networks with TensorFlow, designed to distinguish between safe and malicious G-code files effectively. </p>
+                  <a href="https://github.com/Elites100/VCU-CS-Machine-Learning-for-Cybersecurity-in-3D-Printers" class="button button--flex button--small portfolio__button">
+                    Source
+                    <i class="uil uil-arrow-right button__icon"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Swiper Navigation Buttons -->
+            <div class="swiper-button-next">
+              <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-button-prev">
+              <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+      </section>
+      
+      <!--==================== PROJECT IN MIND (SKIPPED) ====================-->
+      <!-- <section class="project section">
+        <div class="project__bg">
+          <div class="project__container container grid">
+            <div class="project__data">
+              <h2 class="project__title"></h2>
+      
+            </div>
+          </div>
+        </div>
+      </section> -->
+
+      <!--==================== TESTIMONIAL (SKIPPED) ====================-->
+      <!-- <section class="testimonial section">
+          
+      </section> -->
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Details</h2>
+        <span class="section__subtitle">Get In Touch</span>
+
+        <div class="contact__container container grid">
+          <div>
+            <div class="contact__information">
+              <i class="uil uil-phone contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Phone</h3>
+                <span class="contect__subtitle">804-503-0969</span>
+              </div>
+            </div>
+            <div class="contact__information">
+              <i class="uil uil-envelope contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Email Address</h3>
+                <span class="contect__subtitle">kevinphung02@gmail.com</span>
+              </div>
+            </div>
+            <div class="contact__information">
+              <i class="uil uil-map-marker contact__icon"></i>
+              <div>
+                <h3 class="contact__title">Location</h3>
+                <span class="contect__subtitle">Richmond - Virginia</span>
+              </div>
+            </div>
+          </div>
+
+          <form action="" class="contact__form grid">
+            <div class="contact__inputs grid">
+              <div class="contact__content">
+                <label for="Name" class="contact__label">Name</label>
+                <input type="text" class="contact__input" id="Name" name="Name" autocomplete="Name">
+              </div>
+              <div class="contact__content">
+                <label for="Email" class="contact__label">Email</label>
+                <input type="email" class="contact__input" id="Email" name="Email" autocomplete="email">
+              </div>
+            </div>
+            <div class="contact__content">
+              <label for="Message" class="contact__label">Message</label>
+              <textarea name="Message" id="Message" cols="0" rows="7" class="contact__input" autocomplete="off"></textarea>
+            </div>
+            <div>
+              <a href="#" class="button button--flex">
+                Send Message
+                <i class="uil uil-message button__icon"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+
+      </section>
+  </main>
+
+  <!--==================== FOOTER ====================-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Kevin</h1>
+          <span class="footer__subtitle"> Frontend/Full Stack Developer | Software engineer</span>
+        </div>
+        <ul class="footer__links">
+          <li>
+            <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact Details</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+          <a href="https://www.facebook.com/kevin.phung.96/" target="_blank" class="footer__social">
+            <i class="uil uil-facebook"></i>
+          </a>
+
+          <a href="https://www.instagram.com/kevinphung01/" target="_blank" class="footer__social">
+            <i class="uil uil-instagram"></i>
+          </a>
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169 kevinphung01. All right reserved</p>
+    </div>
+  </footer>
+  
+  <!--==================== SCROLL TOP ====================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <!--==================== SWIPER JS ====================-->
+  <script src="Assets/JS/swiper-bundle.min.js"></script>
+  <!--==================== MAIN JS ====================-->
+  <script src="Assets/JS/main.js"></script>
+  
+</body>
+</html>
