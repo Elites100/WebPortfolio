@@ -13,7 +13,7 @@ Hosting: [GitHub Pages]
 
 🌐 Live Demo
 https://elites100.github.io/WebPortfolio/
-
+```
 📂 Folder Structure
 ├── src/
 │   ├── node_modules/
@@ -21,4 +21,4 @@ https://elites100.github.io/WebPortfolio/
 │   └── assets/
 ├── index.html
 ├── README.md
-├── package.json (if applicable)
+```
